@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 50px;
+  }
+  .form-container {
+	max-width: 300px;
+	margin: auto;
+  }
+ 
+  input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  
+  }
+ 
+  button{
+	cursor: pointer;
+  background-color: crimson;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+  }
+  .hidden {
+	display: none;
+  }
