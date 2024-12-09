@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+  }
+  input, button {
+    padding: 10px;
+    margin: 5px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .list {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li.complete {
+    background-color: #d4edda;
+  }
+  .task-details {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .actions button {
+    margin: 0 2px;
+  }
+ 
+  .actions img {
+    cursor: pointer;
+    width: 20px;
+    margin: 0 5px;
+  }
+  .actions img:hover {
+    opacity: 0.7;
+  }
